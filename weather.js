@@ -1,7 +1,7 @@
 const https = require("https");
 const http = require("http");
 const url = require("url");
-const appid = "86d0c5171ea2b6a509e3b4558c52ec34";
+const appid = "";
 const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
